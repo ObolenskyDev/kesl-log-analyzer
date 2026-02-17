@@ -37,7 +37,7 @@
 
 ```bash
 # 1. Анализ конкретного файла трассировки
-python3 trace_analyzer.py /var/log/kaspersky/kesl/kesl_trace.log
+sudo python3 trace_analyzer.py /var/log/kaspersky/kesl/kesl_launcher.log
 
 # 2. Запуск без аргументов (создаст демо-лог для теста)
 python3 trace_analyzer.py
